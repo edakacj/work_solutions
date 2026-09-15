@@ -1,0 +1,3 @@
+wget http://fpst.ru/files/domofon/docker_install_ubuntu.sh && chmod +x docker_install_ubuntu.sh && sudo ./docker_install_ubuntu.sh
+wget http://fpst.ru/files/domofon/docker_install_debian.sh && chmod +x docker_install_debian.sh && sudo ./docker_install_debian.sh
+wget http://fpst.ru/files/domofon/docker_install_centos.sh && chmod +x docker_install_centos.sh && sudo ./docker_install_centos.sh
