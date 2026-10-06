@@ -5,7 +5,11 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 sudo systemctl enable --now docker
 
-sudo docker run hello-world
+
+sudo docker run --name hello-world hello-world
+
+sudo docker rm hello-world
+
 
 sudo usermod -aG docker $SUDO_USER
 
