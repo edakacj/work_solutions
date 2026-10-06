@@ -15,7 +15,11 @@ sudo apt-get update
 
 NEEDRESTART_MODE=n sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo docker run hello-world
+
+sudo docker run --name hello-world hello-world
+
+sudo docker rm hello-world
+
 
 sudo usermod -aG docker $SUDO_USER
 
